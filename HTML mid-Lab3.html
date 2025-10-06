@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sustainable Living Tips</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #container {
+            width: 1000px;
+            margin: auto;
+            font-family: Arial, sans-serif;
+        }
+        #header {
+            height: 150px;
+            background-color: #2e7d32; /* green */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        #menu {
+            height: 50px;
+            background-color: gainsboro;
+            text-align: center;
+            line-height: 50px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #menu ul {
+            list-style-type: none;
+        }
+        #menu ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        #menu ul li a {
+            text-decoration: none;
+            color: #2e7d32;
+            transition: color 0.3s;
+        }
+        #menu ul li a:hover {
+            color: #145214;
+            text-decoration: underline;
+        }
+        #body-content {
+            height: 500px;
+            margin-top: 10px;
+        }
+        #left-body-content {
+            background-color: #a7d7a7; /* lighter green */
+            height: 500px;
+            width: 180px;
+            float: left;
+            padding-top: 20px;
+        }
+        #left-body-content ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        #left-body-content ul li {
+            font-size: 18px;
+            padding: 10px 15px;
+        }
+        #left-body-content ul li a {
+            text-decoration: none;
+            color: #1b4d1b;
+        }
+        #left-body-content ul li a:hover {
+            text-decoration: underline;
+        }
+        #center-body-content {
+            background-color: #f9f9f9;
+            height: 500px;
+            width: 640px;
+            float: left;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        #center-body-content h2 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+        #center-body-content p {
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        #center-body-content ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        #center-body-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        #right-body-content {
+            background-color: #fce4ec; /* light pink */
+            height: 500px;
+            width: 180px;
+            float: right;
+            padding: 20px;
+            font-size: 16px;
+            color: #880e4f;
+        }
+        #footer {
+            clear: both;
+            background-color: #2e7d32;
+            height: 100px;
+            text-align: center;
+            color: white;
+            padding-top: 30px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            Sustainable Living Tips
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="body-content">
+            <div id="left-body-content">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div id="center-body-content">
+                <article>
+                    <h2>5 Easy Ways to Reduce Plastic Waste</h2>
+                    <p>Plastic pollution is a big problem for our planet. Here are five simple ways you can reduce your plastic waste:</p>
+                    <ul>
+                        <li>Use reusable shopping bags instead of plastic ones.</li>
+                        <li>Carry a refillable water bottle.</li>
+                        <li>Avoid single-use plastic straws and utensils.</li>
+                        <li>Buy products with minimal or no plastic packaging.</li>
+                        <li>Recycle properly and support local recycling programs.</li>
+                    </ul>
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60" alt="Reusable bags and bottles" />
+                </article>
+
+                <article>
+                    <h2>Guide to Composting at Home</h2>
+                    <p>Composting is a great way to reduce food waste and create nutrient-rich soil for your garden. Here's how to start composting at home:</p>
+                    <ol>
+                        <li>Choose a compost bin or create a compost pile in your backyard.</li>
+                        <li>Add green materials like vegetable scraps and coffee grounds.</li>
+                        <li>Add brown materials like dry leaves, paper, and cardboard.</li>
+                        <li>Turn the compost regularly to aerate it.</li>
+                        <li>Keep the compost moist but not too wet.</li>
+                    </ol>
+                    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=60" alt="Composting bin" />
+                </article>
+            </div>
+
+            <div id="right-body-content">
+                <h3>Quick Tips</h3>
+                <ul>
+                    <li>Turn off lights when not in use.</li>
+                    <li>Use energy-efficient appliances.</li>
+                    <li>Plant native trees and flowers.</li>
+                    <li>Support local farmers.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer">
+            &copy; 2024 Sustainable Living Tips. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
